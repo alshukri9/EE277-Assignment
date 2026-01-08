@@ -1,7 +1,7 @@
 import numpy as np
 
 
-x = np.random.randint(-10, 10, 20)
+x = np.random.randint(0, 10, 6)
 
 print(x)
 
@@ -16,4 +16,4 @@ def variance(data):
     return y/len(data)    
 
 
-print(f"mean: {mean(x)} variance: {variance(x)}")
+print(f"mean: {mean(x):.2f} variance: {variance(x):.2f}")

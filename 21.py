@@ -37,6 +37,6 @@ test_specificity = 0.90     # 90% chance to correctly identify a healthy person
 pos, neg = bayesian_diagnosis(disease_prevalence, test_sensitivity, test_specificity)
 
 print(f"--- Medical Diagnosis Report ---")
-print(f"Prior Probability (Prevalence): {disease_prevalence:.2%}")
-print(f"Posterior P(Disease | Positive Test): {pos:.2%}")
-print(f"Posterior P(Disease | Negative Test): {neg:.2%}")
+print(f"Prior Probability: {disease_prevalence:.2%}")
+print(f"Posterior Positive Test): {pos:.2%}")
+print(f"Posterior Negative Test): {neg:.2%}")

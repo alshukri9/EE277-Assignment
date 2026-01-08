@@ -24,9 +24,9 @@ for i in range(len(y)):
 fig, ax = plt.subplots(2,1)
 
 ax[0].set_title("Probability Distribution")
-ax[0].bar(range(n+1), y, alpha=0.7)
+ax[0].bar(range(n+1), y)
 
 ax[1].set_title("Cumulative Distribution")
-ax[1].plot(range(n+1), cdf)
+ax[1].bar(range(n+1), cdf, color="skyblue")
 
 plt.show()

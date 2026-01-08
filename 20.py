@@ -11,7 +11,7 @@ def calculate_pi(num_samples):
     
     inside_circle = distance <= 1
     
-    pi_estimate = (np.sum(inside_circle) / num_samples)
+    pi_estimate = (np.sum(inside_circle) / num_samples) *  4
     
     return pi_estimate, x, y, inside_circle
 

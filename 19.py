@@ -19,7 +19,7 @@ frequencies, psd = signal.welch(data, fs, nperseg=20)
 fig, axes = plt.subplots(3, 1, figsize=(10, 12))
 plt.subplots_adjust(hspace=0.4)
 
-axes[0].plot(data, color='blue', lw=0.5)
+axes[0].plot(data, color='blue', lw=0.5, alpha=0.7)
 axes[0].set_title(f"Time Domain: Random Signal")
 axes[0].set_ylabel("Amplitude")
 
